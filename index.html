@@ -7,15 +7,68 @@
   </head>
   <header>
     <ul>
-      <li><a href="index.html">home?</a></li>
-      <li class = "rightnav"><a href="index.html">about</a></li>
-      <li class = "leftnav"><a href="index.html">contact</a></li>
-      <li><a href="index.html">projects</a></li>
+      <li><h1 class="myname" >Lauren Stipp</h1></li>
+      <li class = "nav"><a href="index.html">about</a></li>
+      <li class = "nav"><a href="index.html">contact</a></li>
+      <li class = "nav"><a href="index.html">projects</a></li>
     </ul>
   </header>
   <body>
-    <h1>test</h1>
 
+    <section class="slideshow">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="imgs\projects\gravy_anxiety.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="imgs\projects\hidpan.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="imgs\projects\map_finished.png" style="width:100%">
+        </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+      }
+      </script>
+    </section>
+    <section id = "game_projects">
+      <h1>Projects</h1>
+      <div class="display_proj">
+        <img class="sect_img" src="imgs\projects\hidpan.jpg" style="width:20%">
+        <h3>text</h3>
+      </div>
+      <div class="display_proj">
+        <img class="sect_img" src="imgs\projects\monster.png" style="width:20%">
+      </div>
+    </section>
+
+    <section id = "other_projects">
+      <h1>Non-Game Projects</h1>
+    </section>
+    <section id = "about">
+      <h1>About</h1>
+    </section>
+    <section id = "contact">
+      <h1>Contact</h1>
+    </section>
   </body>
   <footer>Copyright @ 2021 Lauren Stipp</footer>
 </html>
