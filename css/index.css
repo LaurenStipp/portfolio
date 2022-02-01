@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 header {
-  margin:-21px -10px 0px -10px;
   padding-bottom: 50px;
   background-color: #2e2e2e;
 }
+
 /*
 body {
   background-color:#141414;
