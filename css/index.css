@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 header {
@@ -15,6 +17,10 @@ h2 {
 }
 
 h3 {
+  color:white;
+}
+
+p {
   color:white;
 }
 
@@ -39,10 +45,10 @@ li{
 }
 
 .nav {
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
-a{
+li a{
   background-color: blue;
   color: black;
   text-decoration: none;
@@ -50,7 +56,7 @@ a{
   border-radius: 5px;
 }
 
-a:visited {
+li a:visited {
   color: black;
   text-decoration: none;
 }
@@ -93,14 +99,44 @@ section img {
   opacity: 0.8;
 }
 
-.display_proj {
-  display: inline;
-  padding: 30px;
+/* .sect_img {
+  height: 2px;
+  opacity: 1;
+} */
+/* .project_gallery a{
+  text-decoration: none;
+} */
+.project_gallery a {
+  text-decoration: none;
 }
 
-.sect_img {
-  height: 250px;
-  opacity: 1;
+.project_gallery img {
+  padding-top:20px;
+  width:300px;
+  height: 200px;
+}
+
+.project_gallery h3 {
+  padding-left:90px;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+#column_left {
+  padding: 5px;
+  float:left;
+  background-color: green;
+  width:70%;
+  height:300px;
+}
+
+#column_right {
+  background-color: blue;
+  text-align: center;
+  height:300px;
+  padding: 5px;
 }
 
 footer {

@@ -2,6 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+  	<link rel="stylesheet" href="https://use.typekit.net/dkp7fdj.css">
+  	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css">
     <title>Lauren Stipp Portfolio</title>
   </head>
@@ -48,28 +52,40 @@
       }
       </script>
     </section>
-    <section id = "game_projects">
-      <h2>Projects</h2>
-      <div class="display_proj">
-        <img class="sect_img" src="imgs\projects\hidpan.jpg" style="width:20%">
-        <h3>text</h3>
-      </div>
-      <div class="display_proj">
-        <img class="sect_img" src="imgs\projects\monster.png" style="width:20%">
-      </div>
-    </section>
+    <div>
+      <h2>Game Projects</h2>
+      <section class="project_gallery">
+        <a data-fancybox="gallery" href="index.html"></a><img src="imgs\projects\hidpan.jpg">
+          <!-- link to sub-page to explain game -->
+          <h3>Hidden Pandemic</h3>
+      </section>
+    </div>
 
-    <section id = "other_projects">
+    <div>
       <h2>Non-Game Projects</h2>
-      //add links to youtube videos
-      //show off projects made in gary's class
-    </section>
-    <section id = "about">
+      <section class="project_gallery">
+      <!-- add links to youtube videos-->
+      <!-- show off projects made in gary's class -->
+      <!-- create subsections for each different media -->
+      </section>
+    </div>
+
+    <div>
       <h2>About</h2>
-    </section>
-    <section id = "contact">
+        <div class="space">
+          <section id="column_left">
+            <p>hello there</p>
+          </section>
+          <section id="column_right">
+            <p>test</p>
+          </section>
+        </div>
+    </div>
+
+    <div>
       <h2>Contact</h2>
-    </section>
+      <p>please dont</p3>
+    </div>
   </body>
   <footer>Copyright @ 2021 Lauren Stipp</footer>
 </html>
