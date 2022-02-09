@@ -31,7 +31,11 @@ h4 {
 }
 
 a {
-  color:#00f0b4;
+  color:#ffffff;
+}
+
+a:hover {
+  color: #00f0b4;
 }
 
 p {
@@ -53,7 +57,7 @@ li{
 
 hr {
   margin-left: 15px;
-  margin-right: 190px;
+  margin-right: 180px; */
   border: 3px solid #2e2e2e;
 }
 
@@ -61,21 +65,26 @@ hr {
   font-size: 90.44px;
   color: white;
   padding-left: 15px;
-  margin-right:200px;
+  margin-right:150px;
   display: inline;
 }
 
 .nav {
   font-size:63.96px;
-  padding-right: 5%;
+  padding-right: 2%;
 }
 
 li a{
   background-color: #00f0b4;
-  color: black;
+  color: #141414;
   text-decoration: none;
   padding:10px;
   border-radius: 5px;
+}
+
+li a:hover {
+  background-color:#141414;
+  color:#00f0b4;
 }
 
 li a:visited {
@@ -85,16 +94,19 @@ li a:visited {
 
 .slideshow {
 padding-top: 5px;
-margin-bottom:200px;
-height:310px;
+margin-bottom:150px;
+height:300px;
 display: block;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 300px;
-  margin: auto;
+  margin-left: 450px;
+  text-align: center;
+  width: 600px;
+  height:300px;
 }
+
 /* Hide the images by default */
 /* .mySlides {
   display: none;
