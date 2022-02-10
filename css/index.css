@@ -12,14 +12,14 @@ header {
 }
 
 h2 {
-  font-size:54.60px;
+  font-size:45px;
   margin-bottom:10px;
   /*change font color to the accent color in the illustrator file*/
   color: #00f0b4;
 }
 
 h3 {
-  /* padding-top:10px; */
+  padding-top:40px;
   font-size: 31.99px;
   color:white;
 }
@@ -27,7 +27,7 @@ h3 {
 h4 {
   font-size: 22.62px;
   color:white;
-  padding-top: 20px;
+  padding-top: 50px;
   text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ hr {
 }
 
 .nav {
-  font-size:63.96px;
+  font-size:50px;
   padding-right: 2%;
 }
 
@@ -105,7 +105,7 @@ display: block;
   margin-left: 30%;
   text-align: center;
   width: 600px;
-  height:300px;
+  height:280px;
 }
 
 /* Hide the images by default */
@@ -139,7 +139,7 @@ div {
 .project_gallery {
   padding:20px;
   display:grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-auto-rows: 210px;
 
 }
@@ -147,6 +147,11 @@ div {
 .project_gallery img{
   width:300px;
   height: 200px;
+  padding: 10px;
+}
+
+.des {
+  padding-right: 85px;
 }
 
 .project_gallery2 {
@@ -164,7 +169,7 @@ div {
 .project_gallery3 {
   padding:20px;
   display:grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-auto-rows: 270px;
 
 }
@@ -174,19 +179,39 @@ div {
   height: 200px;
 }
 
+.project_link {
+  padding-left: 90px;
+}
+
+.project_link2 {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.non-game {
+  margin-bottom: 100px;
+}
+
 #column_left {
-  padding: 5px;
+  /* padding: 5px; */
   float:left;
   /* background-color: green; */
   width:70%;
   height:300px;
+  margin-bottom: 100px;
 }
 
 .headshot {
-  width:184px;
-  height:299px;
+  width:182px;
+  height:297px;
   float: left;
   padding-right:20px;
+}
+
+.about_intro {
+  padding:0px;
+  font-size: 31.99px;
+  color:white;
 }
 
 #column_right {
@@ -194,6 +219,7 @@ div {
   text-align: center;
   height:300px;
   padding: 5px;
+  margin-bottom: 100px;
 }
 
 .space2 {
