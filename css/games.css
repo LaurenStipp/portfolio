@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* accent color :  00f0b4*/
+
+header {
+  padding-bottom: 20px;
+  background-color: #2e2e2e;
+}
+
+h1 {
+  color: #00f0b4;
+  text-align: center;
+  font-size:80px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size:54.60px;
+  margin-bottom:10px;
+  /*change font color to the accent color in the illustrator file*/
+  color: #00f0b4;
+}
+
+h3 {
+  /* padding-top:10px; */
+  font-size: 31.99px;
+  color:white;
+}
+
+h4 {
+  font-size: 22.62px;
+  color:white;
+  padding-top: 20px;
+}
+
+a {
+  color:#ffffff;
+}
+
+a:hover {
+  color: #00f0b4;
+}
+
+p {
+  font-size: 18px;
+  color:white;
+}
+
+body {
+  background-color:#141414;
+}
+
+
+li{
+  /* padding-left:8%; */
+  list-style-type: none;
+  /* text-align: center; */
+  display: inline;
+}
+
+.myname {
+  font-size: 90.44px;
+  color: white;
+  padding-left: 15px;
+  margin-right:150px;
+  display: inline;
+}
+
+.nav {
+  font-size:63.96px;
+  padding-right: 2%;
+}
+
+li a{
+  background-color: #00f0b4;
+  color: #141414;
+  text-decoration: none;
+  padding:10px;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background-color:#141414;
+  color:#00f0b4;
+}
+
+.info {
+  padding:10px;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows:500px;
+}
+
+.info2 {
+  padding:20px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows:500px;
+}
+
+.info2 img {
+  /* height:504px;
+  width:699px; */
+  width:90%;
+  height:85%;
+  padding-left: 50px;
+}
+
+.info img {
+  padding-left: 50px;
+}
+
+.info video {
+  padding-left: 80px;
+}
+
+.authors {
+  font-size: 14px;
+  padding-left:80px;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.history{
+  margin-top: 50px;
+}
+
+.buy {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.buy_link {
+  background-color: #00f0b4;
+  color: #141414;
+  text-decoration: none;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.logo {
+  margin-left: 200px;
+  width:441px;
+  height:254px;
+}
+
+.wip {
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.warning {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+section a:hover {
+  background-color:#141414;
+  color:#00f0b4;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  /* position:absolute; */
+  width:100%;
+  margin-bottom:10px;
+  /* bottom:5px; */
+}
+
+.footer2 {
+  text-align: center;
+  color: white;
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  /* margin-bottom:10px; */
+}

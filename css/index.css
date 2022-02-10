@@ -28,6 +28,7 @@ h4 {
   font-size: 22.62px;
   color:white;
   padding-top: 20px;
+  text-decoration: underline;
 }
 
 a {
@@ -87,10 +88,10 @@ li a:hover {
   color:#00f0b4;
 }
 
-li a:visited {
+/* li a:visited {
   color: black;
   text-decoration: none;
-}
+} */
 
 .slideshow {
 padding-top: 5px;
@@ -139,7 +140,7 @@ div {
   padding:20px;
   display:grid;
   grid-template-columns: repeat(5,1fr);
-  grid-auto-rows: 250px;
+  grid-auto-rows: 210px;
 
 }
 
@@ -153,32 +154,94 @@ div {
   display:grid;
   grid-template-columns: repeat(2,1fr);
   grid-auto-rows: 100px;
+}
+
+/* .project_gallery3 p {
+  padding-right: 50px;
+  padding-bottom: 10px;
+} */
+
+.project_gallery3 {
+  padding:20px;
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-auto-rows: 270px;
 
 }
 
-.space{
-  margin-bottom: 20px;
+.project_gallery3 img{
+  width:300px;
+  height: 200px;
 }
 
 #column_left {
   padding: 5px;
   float:left;
-  background-color: green;
+  /* background-color: green; */
   width:70%;
   height:300px;
 }
 
+.headshot {
+  width:184px;
+  height:299px;
+  float: left;
+  padding-right:20px;
+}
+
 #column_right {
-  background-color: blue;
+  /* background-color: blue; */
   text-align: center;
   height:300px;
   padding: 5px;
 }
+
+.space2 {
+  text-decoration: underline;
+  padding-bottom: 20px;
+  color:#00f0b4;
+}
+
+.skills {
+  font-size: 18px;
+  padding-bottom: 10px;
+  display: block;
+  color: white;
+}
+
+.contact_gallery {
+  padding:15px;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 100px;
+  margin-bottom: 50px;
+}
+
+.contact_info {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.email {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.linked {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.linked a {
+  text-decoration: none;
+}
+
 
 footer {
   text-align: center;
   color: white;
   /* position:absolute; */
   width:100%;
+  margin-bottom: 20px;
   bottom:0px;
 }
